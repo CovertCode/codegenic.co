@@ -18,14 +18,16 @@
       "additionalSetColors": [
         "#f5f2ed",
         "#1e2826",
-        "#333333"
+        "#333333",
+        "#ffffff"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.3",
     "siteFonts": [],
     "uniqCompNum": 21,
-    "versionPublish": "4.9.3"
+    "versionPublish": "4.9.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -46,16 +48,16 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#ffffff"
+              "color": "#333333"
             },
             ".navbar, .dropdown-menu": {
-              "background": "#333"
+              "background": "#f5f2ed"
             },
             ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#292929"
+              "background": "#eee9e0"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#333333"
             }
           },
           "_params": {
@@ -64,10 +66,10 @@
             "hideButtons": true,
             "sticky": false,
             "transparent": true,
-            "bgColor": "#333",
+            "bgColor": "#f5f2ed",
             "fontSize": 1,
             "fontName": {},
-            "fontColor": "#ffffff"
+            "fontColor": "#333333"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Overview</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\">Help</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
@@ -92,12 +94,12 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showMedia": true,
+            "showMedia": false,
             "showButtons": true,
             "bgImageRadio": true,
             "paddingTop": 2,
-            "paddingBottom": 0,
-            "bgImage": "@PROJECT_PATH@/assets/images/8.jpg",
+            "paddingBottom": "1",
+            "bgImage": "@PROJECT_PATH@/assets/images/16948-2000x1231.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
@@ -105,7 +107,7 @@
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#000",
             "overlayOpacity": 0.9
           },
@@ -221,7 +223,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/4.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -245,7 +247,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -267,9 +269,9 @@
         },
         {
           "_params": {
-            "showBullets": true,
-            "filter": true,
-            "fullWidth": true,
+            "showBullets": false,
+            "filter": false,
+            "fullWidth": false,
             "paddingTop": 4,
             "paddingBottom": 0,
             "noGutter": true,
@@ -591,10 +593,10 @@
           "title2": "Support",
           "title3": "Whatsapp",
           "title4": "Email",
-          "text1": "(080) 123 456 7890",
-          "text2": "<p>support@codegenic.com</p>",
-          "text3": "+918172985754",
-          "text4": "contact@website.com",
+          "text1": "(+91) 945 00 23 891",
+          "text2": "<p>support@codegenic.co</p>",
+          "text3": "+91 945 00 23 891",
+          "text4": "contact@codegenic.co<br>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"

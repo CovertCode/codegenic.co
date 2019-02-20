@@ -152,17 +152,17 @@ p {
 #dropdown-menu-0 .nav .link,
 #dropdown-menu-0 .dropdown-item {
   font-size: 1em;
-  color: #ffffff;
+  color: #333333;
 }
 #dropdown-menu-0 .navbar,
 #dropdown-menu-0 .dropdown-menu {
-  background: #333;
+  background: #f5f2ed;
 }
 #dropdown-menu-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
 #dropdown-menu-0 .dropdown-menu a:hover,
 #dropdown-menu-0 .dropdown-menu a:focus {
-  background: #292929;
+  background: #eee9e0;
 }
 #dropdown-menu-0 .navbar-toggler {
-  color: #ffffff;
+  color: #333333;
 }
