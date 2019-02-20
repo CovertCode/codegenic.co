@@ -99,7 +99,7 @@
             "bgImageRadio": true,
             "paddingTop": 2,
             "paddingBottom": "1",
-            "bgImage": "@PROJECT_PATH@/assets/images/16948-2000x1231.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/16948-converted-2000x1222.png",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#4c6972",
