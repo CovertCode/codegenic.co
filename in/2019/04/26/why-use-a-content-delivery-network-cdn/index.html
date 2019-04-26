@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta charset="UTF-8"><title>Why use a Content Delivery Network (CDN)? – Developer</title><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="http://codegenic.co/india/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="mrseo_elated_default_style-css" href="http://codegenic.co/india/wp-content/themes/mrseo/style.css" type="text/css" media="all"><link rel="stylesheet" id="mrseo_elated_modules-css" href="http://codegenic.co/india/wp-content/themes/mrseo/assets/css/modules.min.css" type="text/css" media="all"><style id="mrseo_elated_modules-inline-css" type="text/css">
+/* generated in /var/www/codescreen.local/htdocs/wp-content/themes/mrseo/framework/admin/options/general/map.php mrseo_elated_page_general_style function */
+.postid-4228.eltdf-boxed .eltdf-wrapper { background-attachment: fixed;}
+
+
+</style><link rel="stylesheet" id="eltdf_font_awesome-css" href="http://codegenic.co/india/wp-content/themes/mrseo/assets/css/font-awesome/css/font-awesome.min.css" type="text/css" media="all"><link rel="stylesheet" id="eltdf_font_elegant-css" href="http://codegenic.co/india/wp-content/themes/mrseo/assets/css/elegant-icons/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="eltdf_ion_icons-css" href="http://codegenic.co/india/wp-content/themes/mrseo/assets/css/ion-icons/css/ionicons.min.css" type="text/css" media="all"><link rel="stylesheet" id="eltdf_linea_icons-css" href="http://codegenic.co/india/wp-content/themes/mrseo/assets/css/linea-icons/style.css" type="text/css" media="all"><link rel="stylesheet" id="mediaelement-css" href="http://codegenic.co/india/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css" type="text/css" media="all"><link rel="stylesheet" id="wp-mediaelement-css" href="http://codegenic.co/india/wp-includes/js/mediaelement/wp-mediaelement.min.css" type="text/css" media="all"><link rel="stylesheet" id="mrseo_elated_modules_responsive-css" href="http://codegenic.co/india/wp-content/themes/mrseo/assets/css/modules-responsive.min.css" type="text/css" media="all"><link rel="stylesheet" id="mrseo_elated_google_fonts-css" href="http://fonts.googleapis.com/css?family=Catamaran%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CRaleway%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&subset=latin-ext&ver=1.0.0" type="text/css" media="all"><link rel="stylesheet" id="jet-elements-css" href="http://codegenic.co/india/wp-content/plugins/jet-elements/assets/css/jet-elements.css" type="text/css" media="all"><link rel="stylesheet" id="jet-elements-skin-css" href="http://codegenic.co/india/wp-content/plugins/jet-elements/assets/css/jet-elements-skin.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-icons-css" href="http://codegenic.co/india/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css" media="all"><link rel="stylesheet" id="font-awesome-css" href="http://codegenic.co/india/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-animations-css" href="http://codegenic.co/india/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-frontend-css" href="http://codegenic.co/india/wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css" media="all"><link rel="stylesheet" id="powerpack-frontend-css" href="http://codegenic.co/india/wp-content/plugins/powerpack-elements/assets/css/frontend.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-pro-css" href="http://codegenic.co/india/wp-content/plugins/elementor-pro/assets/css/frontend.min.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-global-css" href="http://codegenic.co/india/wp-content/uploads/sites/2/elementor/css/global.css" type="text/css" media="all"><link rel="stylesheet" id="elementor-post-4228-css" href="http://codegenic.co/india/wp-content/uploads/sites/2/elementor/css/post-4228.css" type="text/css" media="all"><link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.1.1" type="text/css" media="all"><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/mediaelement/mediaelement-and-player.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/mediaelement/mediaelement-migrate.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/developer\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></head><body class="post-template post-template-elementor_canvas single single-post postid-4228 single-format-standard mrseo-ver-1.6 eltdf-sticky-header-on-scroll-down-up eltdf-dropdown-animate-height eltdf-header-standard eltdf-menu-area-shadow-disable eltdf-menu-area-in-grid-shadow-disable eltdf-menu-area-border-disable eltdf-menu-area-in-grid-border-disable eltdf-logo-area-border-disable eltdf-logo-area-in-grid-border-disable eltdf-header-vertical-shadow-disable eltdf-header-vertical-border-disable eltdf-default-mobile-header eltdf-sticky-up-mobile-header elementor-default elementor-template-canvas elementor-page elementor-page-4228">
+			<div data-elementor-type="post" data-elementor-id="4228" class="elementor elementor-4228" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-6b7ceb20 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6b7ceb20" data-element_type="section" data-settings='{"background_background":"gradient","shape_divider_bottom":"clouds","shape_divider_bottom_negative":"yes"}'><div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-bottom" data-negative="true">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 283.5 27.8" preserveaspectratio="xMidYMax slice"><path class="elementor-shape-fill" d="M265.8 3.5c-10.9 0-15.9 6.2-15.9 6.2s-3.6-3.5-9.2-.9c-9.1 4.1-4.4 13.4-4.4 13.4s-1.2.2-1.9.9c-.6.7-.5 1.9-.5 1.9s-1-.5-2.3-.2c-1.3.3-1.6 1.4-1.6 1.4s.4-3.4-1.5-5c-3.9-3.4-8.3-.2-8.3-.2s-.6-.7-.9-.9c-.4-.2-1.2-.2-1.2-.2s-4.4-3.6-11.5-2.6-10.4 7.9-10.4 7.9-.5-3.3-3.9-4.9c-4.8-2.4-7.4 0-7.4 0s2.4-4.1-1.9-6.4-6.2 1.2-6.2 1.2-.9-.5-2.1-.5-2.3 1.1-2.3 1.1.1-.7-1.1-1.1c-1.2-.4-2 0-2 0s3.6-6.8-3.5-8.9c-6-1.8-7.9 2.6-8.4 4-.1-.3-.4-.7-.9-1.1-1-.7-1.3-.5-1.3-.5s1-4-1.7-5.2c-2.7-1.2-4.2 1.1-4.2 1.1s-3.1-1-5.7 1.4-2.1 5.5-2.1 5.5-.9 0-2.1.7-1.4 1.7-1.4 1.7-1.7-1.2-4.3-1.2c-2.6 0-4.5 1.2-4.5 1.2s-.7-1.5-2.8-2.4c-2.1-.9-4 0-4 0s2.6-5.9-4.7-9c-7.3-3.1-12.6 3.3-12.6 3.3s-.9 0-1.9.2c-.9.2-1.5.9-1.5.9S99.4 3 94.9 3.9c-4.5.9-5.7 5.7-5.7 5.7s-2.8-5-12.3-3.9-11.1 6-11.1 6-1.2-1.4-4-.7c-.8.2-1.3.5-1.8.9-.9-2.1-2.7-4.9-6.2-4.4-3.2.4-4 2.2-4 2.2s-.5-.7-1.2-.7h-1.4s-.5-.9-1.7-1.4-2.4 0-2.4 0-2.4-1.2-4.7 0-3.1 4.1-3.1 4.1-1.7-1.4-3.6-.7c-1.9.7-1.9 2.8-1.9 2.8s-.5-.5-1.7-.2c-1.2.2-1.4.7-1.4.7s-.7-2.3-2.8-2.8c-2.1-.5-4.3.2-4.3.2s-1.7-5-11.1-6c-3.8-.4-6.6.2-8.5 1v21.2h283.5V11.1c-.9.2-1.6.4-1.6.4s-5.2-8-16.1-8z"></path></svg></div>
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-544417d2 elementor-column elementor-col-100 elementor-top-column" data-id="544417d2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-39613247 elementor-widget elementor-widget-heading" data-id="39613247" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">CDNs can help your users load your website faster by serving your static resources in nodes all around the world.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4d9f3c7b elementor-widget elementor-widget-text-editor" data-id="4d9f3c7b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">A Content Delivery Network (CDN) works by providing alternative server nodes for users to download resources (usually static content like images and JavaScript). These nodes spread throughout the world, therefore being geographically closer to your users, ensuring a faster response and download time of content due to reduced latency.</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-78e9c572 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="78e9c572" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-34fac6e4 elementor-column elementor-col-100 elementor-top-column" data-id="34fac6e4" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-792b666e elementor-widget elementor-widget-text-editor" data-id="792b666e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>While CDNs are an appropriate solution for most websites looking for speed improvements, not every site necessarily <em>needs</em> one. It’s important to understand how CDNs work and ultimately, <em>if</em> the benefits are worth the cost of adding one.</p>
+<h2 id="what-is-a-cdn">What is a CDN?</h2>
+<p>A CDN is essentially a network of geographically dispersed servers. 
+Each CDN node (also called Edge Servers) caches the static content of a 
+site like the images, CSS/JS files and other structural components. The 
+majority of an end-user’s page load time is spent on retrieving this 
+content, and so it makes sense to provide these “building blocks” of a 
+site in as many server nodes as possible, distributed throughout the 
+world.</p>
+<p>When a user requests your site, the node closest in proximity to user
+ will deliver the static content, ensuring the shortest distance for the
+ data to travel (reduced latency), therefore providing the fastest site 
+experience.</p>
+<div id="attachment_443" class="screenshot"><img class="size-full wp-image-443" src="https://gtmetrix.com/blog/wp-content/uploads/2017/02/cdn-example.png" alt="" width="918" height="411"><div class="screenshot-caption">CDNs ensure users download data from servers that are closest in geographical proximity.</div></div>
+<hr><h2>Why do I need a CDN?</h2>
+<p>The number one reason for using a CDN is <strong>to improve your user’s experience in terms of speed</strong>, and as we know – <a href="https://gtmetrix.com/faq.html#faq-why">speed matters</a>!</p>
+<p>Ensuring a consistent experience for <em>all your users</em> is important.</p>
+<p>A website may be hosted in a particular region, but have the majority
+ of its users coming from an entirely different region – for example, if
+ your site is hosted in North America, GTmetrix might report fast speeds
+ based on our default test location, but if a good chunk of your users 
+come from Europe, their speed will not be as fast as you experience it 
+to be.</p>
+<div id="attachment_441" class="screenshot"><img class="size-full wp-image-441" src="https://gtmetrix.com/blog/wp-content/uploads/2017/02/cdn-region-specific.png" alt="" width="918" height="411"><div class="screenshot-caption">With
+ a CDN, users from a European point of origin will be able to download 
+your site’s static content faster from a closer server node.</div></div>
+<p>A global CDN would allow users from a European point of origin to 
+download static content from a closer source. Instead of spanning the 
+Atlantic ocean to retrieve data, they can connect to a server in say, 
+London, UK, to get the same data. This reduces latency and provides a 
+faster loading of your website.</p>
+<p>CDNs not only ensure a faster experience to your users, but they also
+ help to prevent site crashes in the event of traffic surges – CDNs help
+ to distribute bandwidth across multiple servers, instead of allowing 
+one server to handle all traffic.</p>
+<h3>…But CDNs Aren’t Absolutely Necessary.</h3>
+<p>Most users who analyze their site through GTmetrix will have YSlow’s “<a href="https://gtmetrix.com/use-a-content-delivery-network-cdn.html">Use a Content Delivery Network (CDN)</a>” recommendation triggered. This leads many to believe that it’s a recommendation on the same level as “<a href="https://gtmetrix.com/minify-css.html">Minify CSS/HTML</a>” or “<a href="https://gtmetrix.com/specify-image-dimensions.html">Specify image dimensions</a>“.</p>
+<p><strong>A CDN is a “next-level” optimization.</strong> It is not a 
+self-contained fix like a server configuration change or a small code 
+modification. CDNs are paid, third-party services, and so implementation
+ of one depends on your goals, priorities and budget.</p>
+<p>Will a CDN help improve the performance of your website? Yes. Is it 
+absolutely required for all websites? No. You can still provide a 
+decently fast website experience without a CDN – but it would probably 
+be faster <em>with</em> one.</p>
+<p>For those with heavy traffic, mission critical websites and that are 
+serious about providing the best possible experience for all their 
+users, a CDN should be a crucial part of their optimization strategy.</p>
+<hr><h2>Implementation and Cost</h2>
+<h3>Implementation</h3>
+<p>It might sound like setting up a CDN for your site is a difficult 
+endeavour (sometimes it is, depending on the site size/complexity), but 
+for most websites – <strong>CDNs are easy to implement</strong>. 
+Essentially, you need to tell the CDN which files (typically static 
+resources) it needs to mirror. Then, you need to configure your site to 
+send requests to those files to the CDN for handling.</p>
+<p>For anybody using a popular CMS (WordPress, Drupal, Magento, etc), 
+plugins exist to set your site up for to a CDN provider without much 
+difficulty. Other implementations may involve modifying DNS records and 
+changing the name servers of your domain.</p>
+<h3>Cost</h3>
+<p>Most CDNs are third-party paid services and can range from expensive,
+ high-end setups for enterprise websites, to more cost-effective 
+small/medium website oriented solutions.</p>
+<p>The cost of a CDN also depends on bandwidth, region reach, and/or 
+security/SSL needs. For example, if you find that most of your users 
+come from North America and Europe, you can omit purchasing server nodes
+ in Asia.</p>
+<p>CDNs don’t have to be cost prohibitive, and can be accessible to website owners of various budgets.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6f001246 elementor-widget elementor-widget-text-editor" data-id="6f001246" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>“Class aptent taciti sociosqu ad litora per conubia nostra, per inceptos himenaeos .Aenean non turpis vitae ligula tristique sagitt isras varius erat pulvinar eros pretium”</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4e32ec27 elementor-widget elementor-widget-text-editor" data-id="4e32ec27" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis arcu est. Quisque posuere est arcu, id hendrerit orci pulvinar id. Cras egestas metus sit amet felis accumsan, vitae placerat libero sodales. Morbi efficitur maximus massa et aliquam. Quisque vel viverra augue.</p><p>Nullam scelerisque erat nisl, eu aliquet quam porttitor et. Aliquam molestie sem augue, non egestas nunc sagittis in. Suspendisse vehicula turpis eget leo sollicitudin, dapibus commodo massa facilisis.</p><p>Ut ac tortor eget nibh condimentum congue. In facilisis porttitor iaculis. Etiam vestibulum, nisl nec molestie egestas, velit lorem venenatis tellus, pellentesque blandit nulla sapien accumsan velit. Vivamus purus nunc, dictum nec elit viverra, semper iaculis risus.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-5b04f46f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5b04f46f" data-element_type="section"><div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-43e01da8 elementor-column elementor-col-100 elementor-top-column" data-id="43e01da8" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-63988293 elementor-widget elementor-widget-image-carousel" data-id="63988293" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","pause_on_hover":"yes","autoplay":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500,"direction":"ltr"}' data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper elementor-slick-slider" dir="ltr">
+			<div class="elementor-image-carousel slick-dots-inside">
+				<div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="http://codegenic.co/india/wp-content/uploads/sites/2/elementor/thumbs/lhtqjazuprq-breather-o6x8gt4u00gdjvvg046tnosd925ahrv2op11n4752c.jpg" alt="lhtqjazuprq-breather.jpg"></figure></div><div class="slick-slide"><figure class="slick-slide-inner"><img class="slick-slide-image" src="http://codegenic.co/india/wp-content/uploads/sites/2/elementor/thumbs/9l_326fiszk-luca-bravo-o6x8gu2o6uhnvhu2umlg86jtug0npgyt0toj4e5qw4.jpg" alt="9l_326fiszk-luca-bravo.jpg"></figure></div>			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-2d6a1a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2d6a1a0" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4b2662db elementor-column elementor-col-100 elementor-top-column" data-id="4b2662db" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-128829ba elementor-widget elementor-widget-text-editor" data-id="128829ba" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis arcu est. Quisque posuere est arcu, id hendrerit orci pulvinar id. Cras egestas metus sit amet felis accumsan, vitae placerat libero sodales. Morbi efficitur maximus massa et aliquam. Quisque vel viverra augue.</p><p>Nullam scelerisque erat nisl, eu aliquet quam porttitor et. Aliquam molestie sem augue, non egestas nunc sagittis in. Suspendisse vehicula turpis eget leo sollicitudin, dapibus commodo massa facilisis.</p><p>“Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Aenean non turpis vitae ligula tristique sagittis. Cras varius erat pulvinar eros pretium suscipit. Duis eleifend sit amet sapien sed ultricies.”</p><p>Ut ac tortor eget nibh condimentum congue. In facilisis porttitor iaculis. Etiam vestibulum, nisl nec molestie egestas, velit lorem venenatis tellus, pellentesque blandit nulla sapien accumsan velit. Vivamus purus nunc, dictum nec elit viverra, semper iaculis risus.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-75d49e95 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="75d49e95" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4ed25a5e elementor-column elementor-col-100 elementor-top-column" data-id="4ed25a5e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4afdd39 elementor-widget elementor-widget-divider" data-id="4afdd39" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-415e14a2 elementor-widget elementor-widget-heading" data-id="415e14a2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Spread the word</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c717dc9 elementor-shape-circle elementor-widget elementor-widget-social-icons" data-id="c717dc9" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper">
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook" href="" target="_blank">
+					<span class="elementor-screen-only">Facebook</span>
+					<i class="fa fa-facebook"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter" href="" target="_blank">
+					<span class="elementor-screen-only">Twitter</span>
+					<i class="fa fa-twitter"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-google-plus" href="" target="_blank">
+					<span class="elementor-screen-only">Google-plus</span>
+					<i class="fa fa-google-plus"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin" href="" target="_blank">
+					<span class="elementor-screen-only">Linkedin</span>
+					<i class="fa fa-linkedin"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-snapchat" href="" target="_blank">
+					<span class="elementor-screen-only">Snapchat</span>
+					<i class="fa fa-snapchat"></i>
+				</a>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-2f6b5c07 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2f6b5c07" data-element_type="section" data-settings='{"background_background":"gradient","shape_divider_bottom":"clouds","shape_divider_bottom_negative":"yes"}'><div class="elementor-background-overlay"></div>
+						<div class="elementor-shape elementor-shape-bottom" data-negative="true">
+			<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 283.5 27.8" preserveaspectratio="xMidYMax slice"><path class="elementor-shape-fill" d="M265.8 3.5c-10.9 0-15.9 6.2-15.9 6.2s-3.6-3.5-9.2-.9c-9.1 4.1-4.4 13.4-4.4 13.4s-1.2.2-1.9.9c-.6.7-.5 1.9-.5 1.9s-1-.5-2.3-.2c-1.3.3-1.6 1.4-1.6 1.4s.4-3.4-1.5-5c-3.9-3.4-8.3-.2-8.3-.2s-.6-.7-.9-.9c-.4-.2-1.2-.2-1.2-.2s-4.4-3.6-11.5-2.6-10.4 7.9-10.4 7.9-.5-3.3-3.9-4.9c-4.8-2.4-7.4 0-7.4 0s2.4-4.1-1.9-6.4-6.2 1.2-6.2 1.2-.9-.5-2.1-.5-2.3 1.1-2.3 1.1.1-.7-1.1-1.1c-1.2-.4-2 0-2 0s3.6-6.8-3.5-8.9c-6-1.8-7.9 2.6-8.4 4-.1-.3-.4-.7-.9-1.1-1-.7-1.3-.5-1.3-.5s1-4-1.7-5.2c-2.7-1.2-4.2 1.1-4.2 1.1s-3.1-1-5.7 1.4-2.1 5.5-2.1 5.5-.9 0-2.1.7-1.4 1.7-1.4 1.7-1.7-1.2-4.3-1.2c-2.6 0-4.5 1.2-4.5 1.2s-.7-1.5-2.8-2.4c-2.1-.9-4 0-4 0s2.6-5.9-4.7-9c-7.3-3.1-12.6 3.3-12.6 3.3s-.9 0-1.9.2c-.9.2-1.5.9-1.5.9S99.4 3 94.9 3.9c-4.5.9-5.7 5.7-5.7 5.7s-2.8-5-12.3-3.9-11.1 6-11.1 6-1.2-1.4-4-.7c-.8.2-1.3.5-1.8.9-.9-2.1-2.7-4.9-6.2-4.4-3.2.4-4 2.2-4 2.2s-.5-.7-1.2-.7h-1.4s-.5-.9-1.7-1.4-2.4 0-2.4 0-2.4-1.2-4.7 0-3.1 4.1-3.1 4.1-1.7-1.4-3.6-.7c-1.9.7-1.9 2.8-1.9 2.8s-.5-.5-1.7-.2c-1.2.2-1.4.7-1.4.7s-.7-2.3-2.8-2.8c-2.1-.5-4.3.2-4.3.2s-1.7-5-11.1-6c-3.8-.4-6.6.2-8.5 1v21.2h283.5V11.1c-.9.2-1.6.4-1.6.4s-5.2-8-16.1-8z"></path></svg></div>
+					<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-290b6da elementor-column elementor-col-100 elementor-top-column" data-id="290b6da" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d92bb19 elementor-widget elementor-widget-heading" data-id="d92bb19" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">The Story Behind PopIt</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6c3e9e93 elementor-view-default elementor-widget elementor-widget-icon" data-id="6c3e9e93" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ded6b66 elementor-widget elementor-widget-text-editor" data-id="ded6b66" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Click edit button to change this text. Lorem ipsum dolor sit amet, adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section><section class="elementor-element elementor-element-8e8c977 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8e8c977" data-element_type="section"><div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3588e745 elementor-column elementor-col-100 elementor-top-column" data-id="3588e745" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3a40d46e elementor-widget elementor-widget-image" data-id="3a40d46e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="234" height="234" src="http://codegenic.co/india/wp-content/uploads/sites/2/2019/04/groomsman3.jpg" class="attachment-full size-full" alt="" srcset="http://codegenic.co/india/wp-content/uploads/sites/2/2019/04/groomsman3.jpg 234w,http://codegenic.co/india/wp-content/uploads/sites/2/2019/04/groomsman3-150x150.jpg 150w" sizes="(max-width: 234px) 100vw, 234px"></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6b3fc177 elementor-widget elementor-widget-heading" data-id="6b3fc177" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">By NICK JOHNSON</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6934584e elementor-widget elementor-widget-spacer" data-id="6934584e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-575843a9 elementor-widget elementor-widget-text-editor" data-id="575843a9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis arcu est. Quisque posuere est arcu, id hendrerit orci pulvinar id. Cras egestas metus sit amet felis accumsan, vitae placerat libero sodales. Morbi efficitur maximus massa et aliquam. Quisque vel viverra augue.</p><p>Nullam scelerisque erat nisl, eu aliquet quam porttitor et. Aliquam molestie sem augue, non egestas nunc sagittis in. Suspendisse vehicula turpis eget leo sollicitudin, dapibus commodo massa facilisis.</p><p>“Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Aenean non turpis vitae ligula tristique sagittis. Cras varius erat pulvinar eros pretium suscipit. Duis eleifend sit amet sapien sed ultricies.”</p><p>Ut ac tortor eget nibh condimentum congue. In facilisis porttitor iaculis. Etiam vestibulum, nisl nec molestie egestas, velit lorem venenatis tellus, pellentesque blandit nulla sapien accumsan velit. Vivamus purus nunc, dictum nec elit viverra, semper iaculis risus.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f3a5a0a elementor-widget elementor-widget-text-editor" data-id="f3a5a0a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>“Class aptent taciti sociosqu ad litora per conubia nostra, per inceptos himenaeos .Aenean non turpis vitae ligula tristique sagitt isras varius erat pulvinar eros pretium”</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-68a7139f elementor-widget elementor-widget-text-editor" data-id="68a7139f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis arcu est. Quisque posuere est arcu, id hendrerit orci pulvinar id. Cras egestas metus sit amet felis accumsan, vitae placerat libero sodales. Morbi efficitur maximus massa et aliquam. Quisque vel viverra augue.</p><p>Nullam scelerisque erat nisl, eu aliquet quam porttitor et. Aliquam molestie sem augue, non egestas nunc sagittis in. Suspendisse vehicula turpis eget leo sollicitudin, dapibus commodo massa facilisis.</p><p>Ut ac tortor eget nibh condimentum congue. In facilisis porttitor iaculis. Etiam vestibulum, nisl nec molestie egestas, velit lorem venenatis tellus, pellentesque blandit nulla sapien accumsan velit. Vivamus purus nunc, dictum nec elit viverra, semper iaculis risus.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/jquery/ui/core.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/jquery/ui/widget.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/jquery/ui/tabs.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/jquery/ui/accordion.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/mediaelement/wp-mediaelement.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.appear.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/modernizr.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/hoverIntent.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.plugin.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.countdown.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/owl.carousel.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/parallax.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/easypiechart.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/powerpack-elements/assets/lib/waypoints/waypoints.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/Chart.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/counter.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/absoluteCounter.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/fluidvids.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.prettyPhoto.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.nicescroll.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/ScrollToPlugin.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.waitforimages.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.easing.1.3.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/jquery.multiscroll.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/powerpack-elements/assets/lib/isotope/isotope.pkgd.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules/plugins/packery-mode.pkgd.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var eltdfGlobalVars = {"vars":{"eltdfAddForAdminBar":0,"eltdfElementAppearAmount":-100,"eltdfAddingToCartLabel":"Adding To Cart...","eltdfAjaxUrl":"http:\/\/codegenic.co\/india\/wp-admin\/admin-ajax.php","eltdfStickyHeaderHeight":0,"eltdfStickyHeaderTransparencyHeight":70,"eltdfTopBarHeight":0,"eltdfLogoAreaHeight":0,"eltdfMenuAreaHeight":93,"eltdfMobileHeaderHeight":70}};
+var eltdfPerPageVars = {"vars":{"eltdfStickyScrollAmount":0,"eltdfHeaderTransparencyHeight":0}};
+/* ]]> */
+</script><script type="text/javascript" src="http://codegenic.co/india/wp-content/themes/mrseo/assets/js/modules.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor/assets/lib/slick/slick.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js"></script><script type="text/javascript">
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/codegenic.co\/india\/wp-admin\/admin-ajax.php","nonce":"d264a4ec35","shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"delicious":{"title":"Delicious"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""}};
+</script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor-pro/assets/js/frontend.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-includes/js/jquery/ui/position.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"></script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js"></script><script type="text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.5.14","urls":{"assets":"http:\/\/codegenic.co\/india\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":4228,"title":"Why use a Content Delivery Network (CDN)?","excerpt":""}};
+</script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/elementor/assets/js/frontend.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var jetElements = {"ajaxUrl":"http:\/\/codegenic.co\/india\/wp-admin\/admin-ajax.php","messages":{"invalidMail":"Please specify a valid e-mail"}};
+/* ]]> */
+</script><script type="text/javascript" src="http://codegenic.co/india/wp-content/plugins/jet-elements/assets/js/jet-elements.js"></script></body></html>
